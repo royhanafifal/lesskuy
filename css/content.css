@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+.top-bar {
+    width: 80%;
+    /* height: 10px; */
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.logo img {
+    width: 115px;
+    margin: 8px auto;
+    cursor: pointer;
+}
+
+.search-box {
+    width: 50%;
+    float: left;
+}
+
+.input-search {
+    width: 100%;
+    margin: 11px auto;
+    display: inline-flex;
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+
+.input-search input {
+    float: right;
+    padding: 5px;
+    padding-left: 20px;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.search-icon .fa {
+    color: blue;
+    padding-bottom: 0;
+}
+
+.menu-bar {
+    width: 30%;
+    float: right;
+    text-align: right;
+}
+
+.menu-bar ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin: 15px 20px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+#login {
+    padding-right: 30px;
+    margin-right: 5px;
+    border-right: 2px solid #918f8e;
+}
+
+.content {
+    width: 80%;
+    height: 80%;
+    margin: 7% auto 0;
+    position: relative;
+}
+
+.content-left {
+    width: 25%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid black;
+}
+
+.filter {
+    padding-right: 20px;
+}
+
+.filter-content {
+    border-bottom: 1px solid black;
+    border-width: 80%;
+    padding-top: 20px;
+}
+
+.title-filter {
+    font-weight: bold;
+}
+
+
+/* .filter-content ul li {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(71, 69, 69);
+    padding-top: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.filter-content ul li:hover {
+    color: blue;
+} */
+
+.filter-pilihan {
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.content-right {
+    width: 73%;
+    height: 100%;
+    float: right;
+}
+
+.result-wrapper {
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.result-content {
+    margin: 20px;
+}
+
+.result-content img {
+    width: 150px;
+    height: 150px;
+}
+
+.result-info {
+    margin-top: 10px;
+}
+
+.result-info p {
+    margin: 0;
+}
+
+.kota-jenjang {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kota-jenjang .SMA {
+    color: #1900FF;
+}
+
+.kota-jenjang .SMP {
+    color: #00A5D9;
+}
+
+.kota-jenjang .SD {
+    color: #FF0426;
+}

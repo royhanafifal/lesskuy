@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(assets/bg_buku.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+footer {
+  display: flex;
+  padding: 10px 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+footer p {
+  margin: 0 auto;
+}
+#foto-profil{
+  border-radius: 50%;
+  width: 40%;
+  height: 40%;
+}
+.kotak h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.kotak h5{
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-weight: 100;
+}
+.kotak p{
+  text-align: justify;
+}
+.kotak ul.skill {
+  text-align: left;
+}
+.kotak img.sosmed-icon{
+  width: 3em;
+  height: auto;
+  padding: 2em;
+}

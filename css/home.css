@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+.top-bar {
+    width: 80%;
+    height: 60px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.logo img {
+    width: 115px;
+    margin: 8px auto;
+    cursor: pointer;
+}
+
+.menu-bar {
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+
+.menu-bar ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin: 15px 20px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+#login {
+    padding-right: 30px;
+    margin-right: 5px;
+    border-right: 2px solid #918f8e;
+}
+
+.content {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content-text {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.content-text h1 {
+    margin: 100px 0px 10px 70px;
+    line-height: 40px;
+    font-weight: 100;
+}
+
+.content-text p {
+    padding-left: 70px;
+    line-height: 25px;
+}
+
+.content-text .search {
+    width: 70%;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 7px 20px;
+    margin: 10px 30px 0 70px;
+    vertical-align: middle;
+    font-size: 15px;
+    outline: none;
+}
+
+.content-banner {
+    width: 49%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+.content-banner img {
+    width: 100%;
+    margin: 10px auto;
+}

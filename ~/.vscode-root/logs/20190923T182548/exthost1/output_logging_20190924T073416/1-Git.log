@@ -1,0 +1,26 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /opt/lampp/htdocs
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :myproject/application/views/v_login.php
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- myproject/application/views/
+> git show :myproject/application/controllers/Login.php
+> git ls-files --stage -- myproject/application/controllers/
+> git check-ignore -v -z --stdin
+> git show :myproject/application/models/Login_model.php
+> git ls-files --stage -- myproject/application/models/
+> git show :myproject/application/controllers/Login.php
+> git ls-files --stage -- myproject/application/controllers/
+> git show :myproject/application/models/Login_model.php
+> git ls-files --stage -- myproject/application/models/
